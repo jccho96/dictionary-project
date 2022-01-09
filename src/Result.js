@@ -8,7 +8,8 @@ export default function Result(props) {
       <div className="Result">
         <hr></hr>
         <div className="type">Definition</div>
-        <span class="highlightme">{props.result.word}</span>
+        <span class="highlightme">{props.result.word}</span>{" "}
+        <span className="phonetic">{props.result.phonetic}</span>
         {props.result.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
