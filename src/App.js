@@ -6,6 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
+          <h1> What word do you want to look up? </h1>
           <Dictionary />
         </main>
         <footer className="App-footer">

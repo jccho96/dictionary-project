@@ -1,0 +1,13 @@
+.Meaning {
+  margin: 10px 0;
+}
+.Meaning .partOfSpeech {
+  font-size: 15px;
+}
+.Meaning .definition {
+  font-size: 15px;
+}
+.Meaning em {
+  color: #6b6b6b;
+  font-size: 13px;
+}
