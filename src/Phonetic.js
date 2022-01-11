@@ -3,7 +3,6 @@ import "./Phonetic.css";
 import volumeUp from "./volume-up.svg";
 
 export default function Phonetic(props) {
-  console.log(props.phonetic);
   return (
     <span className="Phonetic">
       <span>[{props.phonetic.text}]</span>
