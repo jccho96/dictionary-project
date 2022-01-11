@@ -1,5 +1,6 @@
 .Dictionary form {
-  margin: 30px 100px 30px 100px;
+  margin: 30px auto;
+  width: 60%;
 }
 
 .Dictionary input {
