@@ -3,6 +3,7 @@
 }
 .Meaning .partOfSpeech {
   font-size: 15px;
+  font-weight: bold;
 }
 .Meaning .definition {
   font-size: 15px;

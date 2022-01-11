@@ -1,13 +1,14 @@
 import React from "react";
 import "./Phonetic.css";
+import volumeUp from "./volume-up.svg";
 
 export default function Phonetic(props) {
   console.log(props.phonetic);
   return (
     <span className="Phonetic">
-      <span>{props.phonetic.text}</span>
+      <span>[{props.phonetic.text}]</span>
       <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-        Listen
+        <img src={volumeUp} alt="volume" width="20" height="20" />
       </a>
     </span>
   );

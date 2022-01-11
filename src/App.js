@@ -10,13 +10,13 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          Coded by yeyeong and
+          <hr />
+          Coded by yeyeong and {""}
           <a
             href="https://github.com/jccho96/dictionary-project.git"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
             open-sourced on Github{" "}
           </a>{" "}
         </footer>
